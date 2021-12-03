@@ -17,3 +17,4 @@ for a in range(len(zero)):
         answer += '0'
         inverted += '1'
 print("AOC day3 pt1: {}".format(int(answer,2) * int(inverted,2)))
+#
