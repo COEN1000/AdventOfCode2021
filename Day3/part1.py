@@ -1,10 +1,6 @@
 test = open("imput.txt","r").read().split() 
 one,zero = [0]*len(test[0]),[0]*len(test[0])
 
-for bits in test:
-    bit = next(iter(most_common(bits)))
-
-
 for i in test:
     for x in range(len(one)):
         if int(i[x:x+1]) == 1:
